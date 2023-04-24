@@ -3,14 +3,13 @@ import glob
 
 setup(
     name="vpdb",
-    version="1.0.0",
+    version="1.1.0",
     author="Dechao Meng",
     author_email="dechao.meng@vipl.ict.ac.cn",
-    url="https://github.com/silverbulletmdc/vpdb",
-    # keywords=("pytorch", "vehicle", "ReID"),
+    url="https://github.com/Kid-key/vpdb",
+    # keywords=("vscode", "launch"),
     description="Python debug configuration generator for vscode",
     scripts=glob.glob('scripts/*'),
-    install_requires=["jstyleson"],
     # long_description="",
     packages=find_packages(exclude=('examples', 'examples.*')),
 )
